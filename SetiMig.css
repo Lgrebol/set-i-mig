@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #003300; /* Fons verd com el feltre d'una taula de blackjack */
+  color: #fff; /* Text en blanc */
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 10px;
+  background: #003300; /* Fons verd */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Ombra */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #222222; /* Fons de la barra lateral */
+  color: #fff; /* Text en blanc */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #ffcc00; /* Títols en groc */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000; /* Fons negre */
+  color: #ffcc00; /* Text en groc */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #222222; /* Fons més fosc en hover */
+}
+
+.jugador {
+  margin-bottom: 4px;
+}
+
+.cartes img {
+  width: 15%;
+}
+
+#jugador1-carta-revers, #jugador2-carta-revers {
+  width: 15%;
+}
+
+p {
+  font-weight: bold;
+  color: #ffcc00; /* Text en groc */
+}
+
+#guanyador {
+  font-weight: bold;
+  color: #ffcc00; /* Text en groc */
+}
+
+.sidebar h2 {
+  color: #ffcc00; /* Títol en groc */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li strong {
+  color: #ffcc00; /* Text en groc */
+}
+
+#apostes-realitzades {
+  padding-left: 20px;
+}

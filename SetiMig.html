@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set i mig Lluís Grèbol</title>
+  <link rel="stylesheet" href="SetiMig.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Apostes</h2>
+    <ul>
+      <li><strong>Aposta actual:</strong> <span id="aposta-actual">0</span></li>
+      <li><strong>Diners restants:</strong> <span id="diners-restants">100</span></li>
+      <li><strong>Apostes realitzades:</strong></li>
+      <ul id="apostes-realitzades"></ul>
+    </ul>
+  </div>
+  <div class="container">
+    <h1>Set i mig</h1>
+    <div class="jugador" id="jugador1">
+      <h2>Jugador</h2>
+      <div class="cartes" id="jugador1-cartes"></div>
+      <p id="jugador1-punts"></p>
+      <img src="img/reverso.png" alt="Revers" class="cartes-revers" id="jugador1-carta-revers">
+    </div>
+    <div class="jugador" id="jugador2">
+      <h2>Banca</h2>
+      <div class="cartes" id="jugador2-cartes"></div>
+      <p id="jugador2-punts"></p>
+      <img src="img/reverso.png" alt="Revers" class="cartes-revers" id="jugador2-carta-revers">
+    </div>
+    <button id="iniciar-btn">Iniciar Joc</button>
+    <button id="nou-btn" style="display: none;">Nova Carta</button>
+    <button id="plantar-btn" style="display: none;">Plantar-se</button> 
+    <p id="guanyador"></p>
+    <button id="nouJoc-btn" style="display: none;">Nou Joc</button> 
+  </div>
+  <script type="module" src="joc.js"></script>
+</body>
+</html>
